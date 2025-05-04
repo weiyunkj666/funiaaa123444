@@ -81,7 +81,7 @@ export default function App() {
   const [type, setType] = useState("t2.micro");
   const [ami, setAmi] = useState("");
   const [password, setPassword] = useState("weiyunkj");
-  const [disk, setDisk] = useState(30);
+  const [disk, setDisk] = useState("30");
   const [userdata, setUserdata] = useState("")
   const [gqRegion, setGqRegion] = useState("");
   const [ciRegion, setCiRegion] = useState("");
