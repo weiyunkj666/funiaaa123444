@@ -75,7 +75,7 @@ export default function App() {
   const [proxy, setProxy] = useState("");
 
   //Configuration States
-  const [liRegion, setLiRegion] = useState("");
+  const [liRegion, setLiRegion] = useState("us-east-1");
   const [system, setSystem] = useState("");
   const [systemType, setSystemType] = useState("");
   const [type, setType] = useState("");
