@@ -75,7 +75,7 @@ export default function App() {
   const [proxy, setProxy] = useState("");
 
   //Configuration States
-  const [liRegion， setLiRegion] = useState("ap-southeast-2");
+  const [liRegion,setLiRegion] = useState("ap-southeast-2");
   const [system, setSystem] = useState("Arch Linux");
   const [systemType, setSystemType] = useState("");
   const [type, setType] = useState("t2.micro");
