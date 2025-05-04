@@ -75,13 +75,13 @@ export default function App() {
   const [proxy, setProxy] = useState("");
 
   //Configuration States
-  const [liRegion, setLiRegion] = useState("");
-  const [system, setSystem] = useState("");
+  const [liRegion， setLiRegion] = useState("ap-southeast-2");
+  const [system, setSystem] = useState("Arch Linux");
   const [systemType, setSystemType] = useState("");
-  const [type, setType] = useState("");
+  const [type, setType] = useState("t2.micro");
   const [ami, setAmi] = useState("");
-  const [password, setPassword] = useState("");
-  const [disk, setDisk] = useState("");
+  const [password， setPassword] = useState("suijiwawwa789.");
+  const [disk, setDisk] = useState("30");
   const [userdata, setUserdata] = useState("")
   const [gqRegion, setGqRegion] = useState("");
   const [ciRegion, setCiRegion] = useState("");
